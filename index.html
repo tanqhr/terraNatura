@@ -3,6 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+content="Нашето посещение в Terra Natura Benidorm – снимки, информация, карта и полезни съвети.">
+<meta property="og:title" content="Terra Natura Benidorm">
+<meta property="og:image" content="thumbs/Fg9NcA.webp">
+
+<!-- <meta property="og:title" content="Terra Natura Benidorm">
+<meta property="og:description"
+      content="Нашето посещение в Terra Natura Benidorm – снимки, информация и полезни съвети.">
+
+<meta property="og:image"
+      content="https://your-domain.com/thumbs/Fg9NcA.webp">
+
+<meta property="og:type"
+      content="website">
+
+<meta property="og:url"
+      content="https://your-domain.com/terra-natura.html"> -->
+      <!-- <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Terra Natura Benidorm">
+<meta name="twitter:image"
+      content="https://example.com/thumbs/Fg9NcA.webp"> -->
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
@@ -320,6 +341,35 @@ html{
     cursor:pointer;
     user-select:none;
 }
+.quick-info{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    align-items:center;
+    padding:20px;
+    margin:40px 8%;
+    /* background:#111827; */
+    background:#f59e0b;
+    color:white;
+    border-radius:999px;
+}
+
+.highlight-box{
+    background:#fef3c7;
+    padding:15px 20px;
+    border-left:4px solid #f59e0b;
+    border-radius:10px;
+    margin:20px 0;
+}
+.highlight-box-alt{
+    background:#ffffff;
+    padding:15px 20px;
+    border-left:4px solid #cbd5e1;
+    border-radius:10px;
+    margin:20px 0;
+} 
+
 
 @media (min-width:1025px){
     .navbar .nav-links{
@@ -511,6 +561,11 @@ footer{
  .menu-toggle{
     display:block;
 }
+  .quick-info{
+        flex-direction:column;
+        text-align:center;
+        gap:10px;
+    }
 
 }
 
@@ -618,6 +673,9 @@ footer{
 
 </section>
 
+
+
+
 <!-- INFO -->
 
 <section class="info-cards">
@@ -646,44 +704,38 @@ footer{
 
 <!-- STORY -->
 
-<section class="story" id="story" data-aos="fade-up">
+<section class="story" id="story">
 
-<div data-aos="fade-right">
+<div>
 
 <h2>Нашето посещение</h2>
 
-<!-- <p>
-Посещението на Terra Natura беше едно от най-запомнящите
-се преживявания по време на нашата почивка в Бенидорм.
-Още с влизането останахме впечатлени от огромните пространства,
-буйната растителност и естествените местообитания,
-в които живеят животните.
-</p> -->
 <p>
-Посещението на Тера Натура в Бенидорм беше едно от най-вълнуващите преживявания по време на нашата почивка в Испания.
- Разположен в подножието на планините край Бенидорм, паркът се простира на повече от 300 000 квадратни метра и е дом на над 1 500 животни от повече
-от 200 различни вида. Още с влизането си разбрахме, че това не е обикновен зоопарк, а място, създадено така,
-че посетителите да се чувстват максимално близо до природата.
-
-Концепцията на Тера Натура е известна като „зоопарк от ново поколение“.
- Вместо традиционни клетки и решетки, животните са отделени от посетителите чрез естествени прегради като скали, водни басейни и растителност.
- Това позволява много по-добра видимост и създава усещането, че се намираш в естествената им среда.</p>
-     
-
-<br>
-
-<p>
-Паркът е разделен на тематични зони,
-представящи различни части на света –
-Америка, Азия и Европа.
-Навсякъде има интересни маршрути,
-водопади и места за наблюдение.
+Посещението на Terra Natura Benidorm беше едно от най-впечатляващите преживявания по време на нашата почивка в Испания.
+Още с влизането се усеща, че това не е традиционен зоопарк, а място, създадено с идея за максимално близък контакт с природата.
 </p>
+
+<p>
+Паркът е разположен в голяма природна зона и е разделен на тематични части, представящи различни континенти.
+Разходката преминава през зелени пътеки, открити пространства и места за наблюдение на животните без класическите клетки.
+</p>
+
+<div class="highlight-box">
+⭐ Освен стандартното посещение, паркът предлага и специални интерактивни преживявания с животни срещу допълнително заплащане.
+</div>
+
+<p>
+В рамките на парка има и няколко заведения за храна и напитки, което прави престоя удобен за цял ден.
+</p>
+
+<div class="highlight-box">
+🎟️ Препоръчително е билетите да се закупят онлайн от официалния сайт, тъй като често има промоции и намаления.
+</div>
 
 </div>
 
-<div data-aos="fade-left" >
-<img src="thumbs/Rca0vS.webp" alt="" loading="lazy">
+<div>
+<img src="thumbs/Rca0vS.webp" alt="Terra Natura" loading="lazy">
 </div>
 
 </section>
@@ -770,7 +822,7 @@ footer{
 <h2>Нашият ден в Terra Natura</h2>
 
 <div class="step" data-aos="fade-right">
-<span>09:30</span>
+<span>10:00</span>
 <p>Пристигане и разглеждане на входната зона.</p>
 </div>
 
@@ -795,6 +847,9 @@ footer{
 </div>
 
 </section>
+
+
+
 
 <!-- STATS -->
 
@@ -823,6 +878,8 @@ footer{
 </section>
 
 
+
+
 <section class="map-section" id="map">
 
 <h2>Къде се намира Terra Natura</h2>
@@ -837,6 +894,13 @@ loading="lazy">
 </div>
 
 </section>
+
+<section class="quick-info">
+    <h3>🕒 Работно време:</h3>
+    <p>Пон. – Пет.: 10:30 – 19:00</p>
+    <p>Съб. – Нед.: 10:00 – 20:00</p>
+</section>
+
 <!-- FOOTER -->
 
 <footer data-aos="fade-up">
