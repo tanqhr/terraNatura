@@ -33,6 +33,10 @@
     
     <meta name="robots" content="index, follow">
     <meta name="author" content="Tanqhr">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#f59e0b">
+
+
     <link rel="canonical" href="https://tanqhr.github.io/terraNatura/">
     <link
     rel="stylesheet"
@@ -1282,6 +1286,12 @@
 
 
 });
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js");
+    });
+}
 </script>
 
 
