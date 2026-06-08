@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- mane -->
+  <circle cx="32" cy="32" r="30" fill="#f59e0b"></circle>
+
+  <!-- face -->
+  <circle cx="32" cy="34" r="18" fill="#ffd28a"></circle>
+
+  <!-- eyes -->
+  <g>
+    <!-- left eye -->
+    <circle cx="25" cy="30" r="2.5" fill="#1f2937">
+      <animate attributeName="r" values="2.5;0.2;2.5" dur="3s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <!-- right eye -->
+    <circle cx="39" cy="30" r="2.5" fill="#1f2937">
+      <animate attributeName="r" values="2.5;0.2;2.5" dur="3s" repeatCount="indefinite"></animate>
+    </circle>
+  </g>
+
+  <!-- smile -->
+  <path d="M24 38 Q32 46 40 38" stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round"></path>
+
+  <!-- nose -->
+  <circle cx="32" cy="35" r="2" fill="#1f2937"></circle>
+</svg>
